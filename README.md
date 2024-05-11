@@ -1,16 +1,35 @@
-# monie_point_ui
+# UI and Animations in Flutter
 
-A new Flutter project.
+## Introduction
+This repository contains the code for the UI and Animations interview test for a Senior Flutter Developer position
 
 ## Getting Started
+To get started, clone the repository to your local machine
 
-This project is a starting point for a Flutter application.
+```bash
+git clone
+```
 
-A few resources to get you started if this is your first Flutter project:
+Change into the directory
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+cd monie_point_ui
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install the dependencies
+
+```bash
+flutter pub get
+```
+
+Run the app
+
+```bash
+flutter run
+```
+
+## Task
+
+The task is to create a simple UI with animations from the link below
+
+[Real Estate App](https://dribbble.com/shots/23780608-Real-Estate-App)

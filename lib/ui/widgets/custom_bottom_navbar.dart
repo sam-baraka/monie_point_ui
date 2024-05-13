@@ -8,10 +8,10 @@ class CustomBottomNavbar extends ConsumerStatefulWidget {
   const CustomBottomNavbar({super.key});
 
   @override
-  _CustomBottomNavbarState createState() => _CustomBottomNavbarState();
+  CustomBottomNavbarState createState() => CustomBottomNavbarState();
 }
 
-class _CustomBottomNavbarState extends ConsumerState<CustomBottomNavbar>
+class CustomBottomNavbarState extends ConsumerState<CustomBottomNavbar>
     with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
   late Animation<Offset> _animation;

@@ -6,3 +6,4 @@ class AppColors{
   static Color orange = const Color(0xFFfc9d11);
 
 }
+

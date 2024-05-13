@@ -1,19 +1,17 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:monie_point_ui/resources/colors.dart';
 
 class CustomAppbar extends StatefulWidget implements PreferredSizeWidget {
   const CustomAppbar({super.key});
 
   @override
-  _CustomAppbarState createState() => _CustomAppbarState();
+  CustomAppbarState createState() => CustomAppbarState();
 
   @override
   Size get preferredSize => const Size.fromHeight(70);
 }
 
-class _CustomAppbarState extends State<CustomAppbar>
+class CustomAppbarState extends State<CustomAppbar>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
 

@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:monie_point_ui/providers/bottom_nav_provider.dart';
 import 'package:monie_point_ui/resources/colors.dart';
 
-
 class CustomBottomNavbar extends ConsumerStatefulWidget {
   const CustomBottomNavbar({super.key});
 
@@ -44,12 +43,14 @@ class CustomBottomNavbarState extends ConsumerState<CustomBottomNavbar>
   }
 
   @override
-  Widget build(BuildContext context,) {
+  Widget build(
+    BuildContext context,
+  ) {
     return SlideTransition(
       position: _animation,
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.black.withOpacity(0.5),
+          color: Colors.black.withOpacity(0.78),
           borderRadius: BorderRadius.circular(30),
         ),
         child: Padding(
@@ -73,7 +74,6 @@ class CustomBottomNavbarState extends ConsumerState<CustomBottomNavbar>
     );
   }
 }
-
 
 List<IconData> icons = [
   Icons.search,

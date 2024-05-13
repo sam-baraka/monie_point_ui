@@ -30,7 +30,7 @@ class HomePage extends ConsumerWidget {
           Positioned.fill(
             child: [
               const MapPage(),
-              Container(),
+              const MapPage(),
               const Scaffold(
                 backgroundColor: Colors.transparent,
                 appBar: CustomAppbar(),

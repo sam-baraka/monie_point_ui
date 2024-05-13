@@ -6,7 +6,7 @@ final customBottomNavigationBarProvider =
 });
 
 class CustomBottomNavigationBar extends StateNotifier<int> {
-  CustomBottomNavigationBar() : super(0);
+  CustomBottomNavigationBar() : super(2);
 
   void changeIndex(int index) {
     state = index;

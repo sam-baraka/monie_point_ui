@@ -1,7 +1,5 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:monie_point_ui/resources/colors.dart';
 import 'package:monie_point_ui/util/widget_to_bitmap.dart';

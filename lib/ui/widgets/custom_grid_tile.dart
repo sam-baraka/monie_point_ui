@@ -49,10 +49,10 @@ class CardFooter extends StatefulWidget {
   final String title;
 
   @override
-  _CardFooterState createState() => _CardFooterState();
+  CardFooterState createState() => CardFooterState();
 }
 
-class _CardFooterState extends State<CardFooter>
+class CardFooterState extends State<CardFooter>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<Offset> _animation;

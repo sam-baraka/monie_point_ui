@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:monie_point_ui/providers/bottom_nav_provider.dart';
 import 'package:monie_point_ui/resources/colors.dart';
